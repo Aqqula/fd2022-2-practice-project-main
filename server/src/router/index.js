@@ -39,7 +39,7 @@ router.post(
 );
 
 router.post(
-  '/getCustomersContests',
+  '/getCustomersContests', // '/customers-contests'
   checkToken.checkToken,
   contestController.getCustomersContests,
 );
